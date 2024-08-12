@@ -1,0 +1,51 @@
+{
+  "name": "vv",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "lint:prettier": "prettier --write --fix --loglevel warn \"./**/*.{js,ts,mjs,mts,cjs,cts,json,jsx,tsx,css,less,scss,vue,html}\""
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/shared": "^10.11.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.7.3",
+    "core-js": "^3.38.0",
+    "easy-typer-js": "^2.1.0",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.1",
+    "pinia": "^2.2.0",
+    "qs": "^6.13.0",
+    "swiper": "^11.1.9",
+    "vant": "^4.9.4",
+    "vue": "^3.4.35",
+    "vue-i18n": "^9.13.1",
+    "vue-router": "^4.4.2",
+    "vue-tg": "^0.8.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "amfe-flexible": "^2.2.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.41",
+    "postcss-pxtorem": "^6.1.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.8",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-icons": "^0.19.1",
+    "unplugin-vue-components": "^0.27.3",
+    "vite": "^5.3.5",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}

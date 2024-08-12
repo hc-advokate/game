@@ -1,0 +1,96 @@
+.com-body {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+.com-body-pd {
+  width: 100vw;
+  height: 100vh;
+  padding: 22px 20px;
+  overflow: scroll;
+}
+
+// 虚实边框
+.com-box-bd {
+  border: 3px solid transparent !important;
+  border-radius: 15px !important;
+  background-clip: padding-box, border-box !important;
+  background-origin: padding-box, border-box !important;
+  background-image: linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(180deg, rgba(212, 183, 230, 1), rgba(255, 213, 211, 1), rgba(255, 243, 160, 1), rgba(72, 255, 177, 1), rgba(110, 210, 249, 1)) !important;
+  padding: 8px;
+  .com-box-bdc {
+    border: 1px dashed #FFF !important;
+    border-radius: 9px !important;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    background-image: linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(180deg, rgba(212, 183, 230, 1), rgba(255, 213, 211, 1), rgba(255, 243, 160, 1), rgba(72, 255, 177, 1), rgba(110, 210, 249, 1)) !important;
+  }
+}
+
+// 按钮
+.com-btn {
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: linear-gradient(0deg, #FFF 0%, #FFF 100%), linear-gradient(180deg, rgba(212, 183, 230, 1), rgba(255, 213, 211, 1), rgba(255, 243, 160, 1), rgba(72, 255, 177, 1), rgba(110, 210, 249, 1));
+  .com-btn-txt {
+    font-family: SFProRounded-Bold, SFProRounded;
+    font-weight: bold;
+    font-size: 15px;
+    color: transparent;
+    line-height: 1;
+    text-align: center;
+    font-style: normal;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #FFF3A0 0%, #FAC9C7 41%, #B2BDED 78%, #59CDFF 100%);
+  }
+}
+.com-btn-txt_black {
+  font-family: SFProRounded-Black, SFProRounded;
+  font-weight: 900;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 20px;
+  text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+  text-align: center;
+  font-style: normal;
+}
+
+// navBar
+.hl-title-bar{
+  height: 44px;
+  background: linear-gradient( 124deg, #FFF3A0 0%, #FAC9C7 50%, #59CDFF 100%);
+  box-shadow: 0px 0 7px 1px rgba(0,0,0,0.2);
+  z-index: 2;
+  .hl-nav-bar{
+    background: none;
+    font-family: SFProRounded-Black;
+    font-weight: 900;
+    line-height: 44px;
+    font-style: normal;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    .van-nav-bar__content{
+      height: inherit;
+      .van-nav-bar__title{
+        color: #FFFFFF;
+        text-shadow: none;
+        font-size: 15px;
+      }
+    }
+
+    .van-nav-bar__left{
+      .van-nav-bar__arrow{
+        color: #ffffff;
+        font-size: 24px;
+      }
+    }
+  }
+  .van-hairline--bottom{
+    &::after{
+      border-bottom-width: 0;
+    }
+  }
+}
